@@ -9,12 +9,36 @@
 /* Begin PBXBuildFile section */
 		9ED1A6A93063A78C00550E91 /* SplitMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6A73063A6F000550E91 /* SplitMateApp.swift */; };
 		9ED1A6AA3063A7A400550E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6A83063A70800550E91 /* ContentView.swift */; };
+		9ED1A6BA3063B65A00550E91 /* SplitMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6AE3063B3C200550E91 /* SplitMethod.swift */; };
+		9ED1A6BB3063B65F00550E91 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6AF3063B3DA00550E91 /* Expense.swift */; };
+		9ED1A6BC3063B66400550E91 /* Settlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B03063B3EB00550E91 /* Settlement.swift */; };
+		9ED1A6BD3063B66900550E91 /* ExpenseGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B13063B40300550E91 /* ExpenseGroup.swift */; };
+		9ED1A6BE3063B66E00550E91 /* SettlementEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B23063B42800550E91 /* SettlementEngine.swift */; };
+		9ED1A6BF3063B67300550E91 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B33063B43F00550E91 /* PersistenceService.swift */; };
+		9ED1A6C03063B67700550E91 /* GroupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B43063B53D00550E91 /* GroupCard.swift */; };
+		9ED1A6C13063B67C00550E91 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B53063B55200550E91 /* AddGroupView.swift */; };
+		9ED1A6C23063B68100550E91 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B63063B56900550E91 /* InsightsView.swift */; };
+		9ED1A6C33063B68800550E91 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B73063B57C00550E91 /* GroupDetailView.swift */; };
+		9ED1A6C43063B68C00550E91 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B83063B5AA00550E91 /* AddExpenseView.swift */; };
+		9ED1A6C53063B69100550E91 /* BalancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6B93063B5BB00550E91 /* BalancesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9ED1A69830639EE000550E91 /* SplitMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED1A6A73063A6F000550E91 /* SplitMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMateApp.swift; sourceTree = "<group>"; };
 		9ED1A6A83063A70800550E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9ED1A6AE3063B3C200550E91 /* SplitMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMethod.swift; sourceTree = "<group>"; };
+		9ED1A6AF3063B3DA00550E91 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		9ED1A6B03063B3EB00550E91 /* Settlement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settlement.swift; sourceTree = "<group>"; };
+		9ED1A6B13063B40300550E91 /* ExpenseGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseGroup.swift; sourceTree = "<group>"; };
+		9ED1A6B23063B42800550E91 /* SettlementEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlementEngine.swift; sourceTree = "<group>"; };
+		9ED1A6B33063B43F00550E91 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		9ED1A6B43063B53D00550E91 /* GroupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCard.swift; sourceTree = "<group>"; };
+		9ED1A6B53063B55200550E91 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
+		9ED1A6B63063B56900550E91 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		9ED1A6B73063B57C00550E91 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		9ED1A6B83063B5AA00550E91 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		9ED1A6B93063B5BB00550E91 /* BalancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,9 @@
 		9ED1A68F30639EE000550E91 = {
 			isa = PBXGroup;
 			children = (
+				9ED1A6AD3063B38E00550E91 /* Views */,
+				9ED1A6AC3063B38000550E91 /* Services */,
+				9ED1A6AB3063B37300550E91 /* Models */,
 				9ED1A6A83063A70800550E91 /* ContentView.swift */,
 				9ED1A6A73063A6F000550E91 /* SplitMateApp.swift */,
 				9ED1A69930639EE000550E91 /* Products */,
@@ -43,6 +70,39 @@
 				9ED1A69830639EE000550E91 /* SplitMate.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED1A6AB3063B37300550E91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1A6B13063B40300550E91 /* ExpenseGroup.swift */,
+				9ED1A6B03063B3EB00550E91 /* Settlement.swift */,
+				9ED1A6AF3063B3DA00550E91 /* Expense.swift */,
+				9ED1A6AE3063B3C200550E91 /* SplitMethod.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9ED1A6AC3063B38000550E91 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1A6B33063B43F00550E91 /* PersistenceService.swift */,
+				9ED1A6B23063B42800550E91 /* SettlementEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9ED1A6AD3063B38E00550E91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1A6B93063B5BB00550E91 /* BalancesView.swift */,
+				9ED1A6B83063B5AA00550E91 /* AddExpenseView.swift */,
+				9ED1A6B73063B57C00550E91 /* GroupDetailView.swift */,
+				9ED1A6B63063B56900550E91 /* InsightsView.swift */,
+				9ED1A6B53063B55200550E91 /* AddGroupView.swift */,
+				9ED1A6B43063B53D00550E91 /* GroupCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,8 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED1A6C43063B68C00550E91 /* AddExpenseView.swift in Sources */,
+				9ED1A6C53063B69100550E91 /* BalancesView.swift in Sources */,
+				9ED1A6BB3063B65F00550E91 /* Expense.swift in Sources */,
+				9ED1A6BF3063B67300550E91 /* PersistenceService.swift in Sources */,
 				9ED1A6AA3063A7A400550E91 /* ContentView.swift in Sources */,
+				9ED1A6BD3063B66900550E91 /* ExpenseGroup.swift in Sources */,
+				9ED1A6C23063B68100550E91 /* InsightsView.swift in Sources */,
+				9ED1A6BA3063B65A00550E91 /* SplitMethod.swift in Sources */,
+				9ED1A6BE3063B66E00550E91 /* SettlementEngine.swift in Sources */,
+				9ED1A6C13063B67C00550E91 /* AddGroupView.swift in Sources */,
+				9ED1A6C03063B67700550E91 /* GroupCard.swift in Sources */,
+				9ED1A6BC3063B66400550E91 /* Settlement.swift in Sources */,
 				9ED1A6A93063A78C00550E91 /* SplitMateApp.swift in Sources */,
+				9ED1A6C33063B68800550E91 /* GroupDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
