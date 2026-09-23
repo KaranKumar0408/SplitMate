@@ -6,17 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9ED1A6A93063A78C00550E91 /* SplitMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6A73063A6F000550E91 /* SplitMateApp.swift */; };
+		9ED1A6AA3063A7A400550E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1A6A83063A70800550E91 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9ED1A69830639EE000550E91 /* SplitMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED1A6A73063A6F000550E91 /* SplitMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMateApp.swift; sourceTree = "<group>"; };
+		9ED1A6A83063A70800550E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9ED1A69A30639EE000550E91 /* SplitMate */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SplitMate;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9ED1A69530639EE000550E91 /* Frameworks */ = {
@@ -32,7 +31,8 @@
 		9ED1A68F30639EE000550E91 = {
 			isa = PBXGroup;
 			children = (
-				9ED1A69A30639EE000550E91 /* SplitMate */,
+				9ED1A6A83063A70800550E91 /* ContentView.swift */,
+				9ED1A6A73063A6F000550E91 /* SplitMateApp.swift */,
 				9ED1A69930639EE000550E91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +59,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				9ED1A69A30639EE000550E91 /* SplitMate */,
 			);
 			name = SplitMate;
 			packageProductDependencies = (
@@ -119,6 +116,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED1A6AA3063A7A400550E91 /* ContentView.swift in Sources */,
+				9ED1A6A93063A78C00550E91 /* SplitMateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
