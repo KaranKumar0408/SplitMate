@@ -132,10 +132,4 @@ git clone https://github.com/KaranKumar0408/SplitMate.git
 
 4. Build and run the project using `⌘R`.
 
-## Author
 
-**Karan Kumar**
-
-B.Tech Computer Science & Engineering (Artificial Intelligence & Data Science)
-
-D. Y. Patil Deemed to be University, Navi Mumbai
